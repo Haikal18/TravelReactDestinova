@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import BannerSection from './components/BannerSection';
 import PopularDestination from './components/PopularDestination';
 import TestimonialSection from './components/TestimonialSection';
+import TourPackages from './components/TourPackages';
 import Footer from './components/Footer'; 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <BannerSection />
       <PopularDestination />
       <TestimonialSection/>
+      <TourPackages/>
       <Footer/>
     </div>
   );
