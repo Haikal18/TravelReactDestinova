@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 
 const testimonials = [
   {
@@ -48,7 +50,7 @@ const TestimonialCard = ({ name, image, review }) => (
           <p className="mt-0.5 text-lg font-medium text-gray-900">{name}</p>
           <div className="flex justify-center gap-0.5 text-green-500">
             {[...Array(5)].map((_, index) => (
-              <i key={index} className="fas fa-star h-5 w-5"></i>
+              <FontAwesomeIcon key={index} icon={faStar} className="h-5 w-5" />
             ))}
           </div>
         </div>

@@ -13,7 +13,7 @@ const TourPackages = () => {
                 <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                     <img
                         alt="Verdon Canyon"
-                        src="/assets/image (7).jpg"
+                        src="/image (7).jpg"
                         className="h-56 w-full object-cover"
                     />
                     <div className="bg-white p-4 sm:p-6">
@@ -62,7 +62,7 @@ const TourPackages = () => {
                 <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                     <img
                         alt="Suluban Beaches"
-                        src="/assets/image (1).jpg"
+                        src="/image (1).jpg"
                         className="h-56 w-full object-cover"
                     />
                     <div className="bg-white p-4 sm:p-6">
@@ -111,7 +111,7 @@ const TourPackages = () => {
                 <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                     <img
                         alt="Sunnmore Alps Mountain"
-                        src="/assets/image (6).jpg"
+                        src="/image (6).jpg"
                         className="h-56 w-full object-cover"
                     />
                     <div className="bg-white p-4 sm:p-6">
